@@ -1,0 +1,92 @@
+div.card {
+    border-radius: 7px;
+    background: #daf3ff;
+    box-shadow: 20px 20px 80px #cfe7f2, -20px -20px 80px #e5ffff;
+}
+
+.btn .my-buttons {
+    border: none;
+    color: #4c4c4c;
+    padding: 0.7em 1.7em;
+    font-size: 18px;
+    border-radius: 0.5em;
+    background: #e8e8e8;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #ffffff;
+}
+
+.card-header {
+    fieldset {
+        border: 1px solid black;
+        margin: 5px;
+        padding: 12px;
+        display: flex;
+        .block {
+            margin: 7px;
+        }
+        legend {
+            color: black;
+            font-size: 30px;
+            display: inline-block;
+            padding: 6px;
+            text-align: center;
+            width: auto;
+        }
+    }
+}
+
+.list-block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &__content {
+        display: flex;
+        flex-direction: column;
+        small {
+            color: gray;
+            font-style: italic;
+            font-size: 70%;
+        }
+    }
+    &__buttons {
+        display: flex;
+    }
+    .btn {
+        margin: 3px;
+    }
+}
+.task-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    &__live {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 11px;
+    }
+    &__experience {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 11px;
+    }
+    &__registered {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 11px;
+    }
+    &__reservoir {
+        font-size: 15px;
+        letter-spacing: 1px;
+        padding: 11px;
+    }
+}
+
+body {
+    // background-color: #c0c8ff; //#920000
+    background: rgba(58, 80, 107, 0.6);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(9px);
+    -webkit-backdrop-filter: blur(9px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
